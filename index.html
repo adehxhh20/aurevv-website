@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Gift Hampers</title>
+<script src="assets/94ccbe82-9e93-41d1-ad27-18e71432f4d9.js"></script>
+<meta name="hz:slide-selector" content="[data-canvas-width]"><meta name="hz:canvas-width" content="1440"><meta name="hz:canvas-height" content="1500"></head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/82f33384-6c11-4eb1-bc7c-ed0dbf115a83.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/90f3d6cb-a629-4fb8-afc4-b2203b36d974.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/82f33384-6c11-4eb1-bc7c-ed0dbf115a83.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/90f3d6cb-a629-4fb8-afc4-b2203b36d974.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/82f33384-6c11-4eb1-bc7c-ed0dbf115a83.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/90f3d6cb-a629-4fb8-afc4-b2203b36d974.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/82f33384-6c11-4eb1-bc7c-ed0dbf115a83.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/90f3d6cb-a629-4fb8-afc4-b2203b36d974.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/82f33384-6c11-4eb1-bc7c-ed0dbf115a83.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/90f3d6cb-a629-4fb8-afc4-b2203b36d974.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mrs Saint Delafield';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mrssaintdelafield/v14/v6-IGZDIOVXH9xtmTZfRagunqBw5WC62QKcnL-mYF221gA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mrs Saint Delafield';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mrssaintdelafield/v14/v6-IGZDIOVXH9xtmTZfRagunqBw5WC62QKknL-mYF20.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+html{scroll-behavior:smooth}
+body{margin:0}
+button{font-family:inherit}
+a{color:inherit}
+button:focus-visible,a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+@keyframes fl{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-14px) rotate(4deg)}}
+@keyframes popin{from{opacity:0;transform:translateY(10px) scale(.88)}to{opacity:1;transform:none}}
+.fl{animation:fl 7s ease-in-out infinite}
+.pop{animation:popin .3s cubic-bezier(.34,1.56,.64,1) both}
+.tok{transition:transform .38s cubic-bezier(.34,1.56,.64,1),box-shadow .3s,background .25s,color .25s}
+.tok:hover{filter:brightness(1.05)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fl,.pop{animation:none}.tok{transition:none}}
+</style>
+</helmet>
+
+<div style="position: relative; overflow: hidden; min-height: 820px; box-sizing: border-box; background: {{t.bg}}; color: {{t.ink}}; font-family: 'Inter', sans-serif" data-canvas-width="1440" data-canvas-height="1500" data-document-role="page" data-label="Hampers">
+
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0">
+<sc-for list="{{deco}}" as="d" hint-placeholder-count="9">
+<svg class="fl" sc-camel-view-box="0 0 24 24" aria-hidden="true" style="position: absolute; left: {{d.x}}%; top: {{d.y}}%; width: {{d.s}}px; height: {{d.s}}px; animation-delay: {{d.d}}"><path d="{{d.path}}" fill="{{t.deco}}"></path></svg>
+</sc-for>
+</div>
+
+<div style="position: relative; z-index: 1; display: flex; flex-direction: column; gap: 48px; padding: 28px clamp(16px, 4vw, 48px) 64px">
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; width: 100%; max-width: 1180px; margin: 0 auto; box-sizing: border-box">
+<a href="#top" sc-camel-on-click="{{goTop}}" aria-label="aurevv" style="display: flex; align-items: center; text-decoration: none; min-height: 44px; color: {{t.accent}}; font-family: 'Mrs Saint Delafield', cursive; font-size: 54px; line-height: 1">aurevv</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 24px; font-size: 15px; font-weight: 500">
+<a href="#hampers" sc-camel-on-click="{{goHampers}}" style="text-decoration: none; min-height: 44px; display: flex; align-items: center">Hampers</a>
+<a href="#custom" sc-camel-on-click="{{goCustom}}" style="text-decoration: none; min-height: 44px; display: flex; align-items: center">Custom</a>
+<a href="#order" sc-camel-on-click="{{goContact}}" style="text-decoration: none; min-height: 44px; display: flex; align-items: center">Contact</a>
+<a href="https://ig.me/m/aurevv.co" target="_blank" rel="noopener" style="text-decoration: none; min-height: 44px; display: flex; align-items: center; padding: 0 22px; border-radius: 999px; background: {{t.accent}}; color: {{t.accentInk}}; font-weight: 600">Order now</a>
+</div>
+</div>
+
+<div id="top" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; max-width: 760px; margin: 0 auto">
+<div style="display: flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 999px; background: {{t.pillBg}}; color: {{t.pillInk}}; font-size: 14px; font-weight: 600">
+<svg width="16" height="16" sc-camel-view-box="0 0 24 24" aria-hidden="true"><path d="{{labelPath}}" fill="currentColor"></path></svg>
+<span>Customised gift hampers</span>
+</div>
+<h1 style="margin: 0; font-weight: 800; font-size: clamp(38px, 6vw, 72px); line-height: 1.04; letter-spacing: -0.035em">Gifts, wrapped in feeling.</h1>
+<p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: {{t.muted}}">Personalised hampers for the people you love. Choose one below, then tap what's inside.</p>
+</div>
+
+<div id="hampers" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 1000px; margin: 0 auto">
+<sc-for list="{{tabs}}" as="tab" hint-placeholder-count="6">
+<button sc-camel-on-click="{{tab.pick}}" aria-pressed="{{tab.pressed}}" style="min-height: 46px; padding: 0 22px; border-radius: 999px; cursor: pointer; font-size: 15px; font-weight: {{tab.wt}}; background: {{tab.bg}}; color: {{tab.ink}}; border: 1.5px solid {{tab.border}}">{{tab.label}}</button>
+</sc-for>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px 64px; width: 100%; max-width: 1180px; margin: 0 auto; box-sizing: border-box">
+
+<div style="flex: 1 1 440px; min-width: 0; padding-top: 28px; display: flex; flex-direction: column; align-items: center; gap: 18px">
+<div style="position: relative; width: 100%; max-width: 600px; aspect-ratio: 600 / 612">
+<svg sc-camel-view-box="0 0 600 612" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0">
+<ellipse cx="300" cy="600" rx="250" ry="12" fill="rgba(0,0,0,0.12)"></ellipse>
+<rect x="50" y="44" width="500" height="330" rx="30" fill="{{t.boxDark}}"></rect>
+<rect x="70" y="70" width="460" height="300" rx="24" fill="{{t.inner}}"></rect>
+</svg>
+
+<sc-for list="{{items}}" as="it" hint-placeholder-count="5">
+<button class="tok" sc-camel-on-click="{{it.pick}}" aria-pressed="{{it.pressed}}" aria-label="{{it.name}}" style="position: absolute; aspect-ratio: 1 / 1; border: 0; padding: 0; border-radius: 30%; cursor: pointer; display: flex; align-items: center; justify-content: center; left: {{it.x}}%; top: {{it.y}}%; width: {{it.w}}%; transform: {{it.tf}}; z-index: {{it.z}}; background: {{it.bg}}; color: {{it.fg}}; box-shadow: {{it.sh}}">
+<svg sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width: 46%; height: auto"><path d="{{it.icon}}"></path></svg>
+<span aria-hidden="true" style="position: absolute; top: -6px; left: -6px; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; background: {{it.bBg}}; color: {{it.bInk}}; box-shadow: 0 2px 6px rgba(0,0,0,0.2)">{{it.num}}</span>
+<sc-if value="{{it.on}}" hint-placeholder-val="{{ false }}">
+<span aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: calc(100% + 12px); display: flex; justify-content: {{it.just}}; pointer-events: none">
+<span class="pop" style="display: block; width: max-content; max-width: 200px; box-sizing: border-box; padding: 10px 14px; border-radius: 14px; background: {{t.bubbleBg}}; color: {{t.bubbleInk}}; box-shadow: 0 10px 24px rgba(0,0,0,0.22); text-align: left; font-size: 13px; line-height: 1.35; font-weight: 700">
+<span style="display: block">{{it.name}}</span>
+<sc-if value="{{it.hasSub}}" hint-placeholder-val="{{ false }}">
+<span style="display: block; font-weight: 500; opacity: 0.8">{{it.sub}}</span>
+</sc-if>
+</span>
+</span>
+</sc-if>
+</button>
+</sc-for>
+
+<svg sc-camel-view-box="0 0 600 612" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 4; pointer-events: none">
+<rect x="36" y="360" width="528" height="236" rx="30" fill="{{t.box}}"></rect>
+<rect x="36" y="360" width="528" height="236" rx="30" fill="rgba(0,0,0,0.05)"></rect>
+<rect x="26" y="340" width="548" height="44" rx="22" fill="{{t.box}}"></rect>
+<rect x="38" y="344" width="524" height="8" rx="4" fill="rgba(255,255,255,0.35)"></rect>
+<rect x="36" y="384" width="528" height="12" fill="rgba(0,0,0,0.08)"></rect>
+<rect x="272" y="340" width="56" height="256" fill="{{t.ribbon}}"></rect>
+<circle cx="300" cy="478" r="38" fill="{{t.ribbon}}"></circle>
+<circle cx="300" cy="478" r="38" fill="none" stroke="{{t.box}}" stroke-width="3" stroke-dasharray="3 6" stroke-linecap="round"></circle>
+<g transform="translate(282 460) scale(1.5)"><path d="{{labelPath}}" fill="{{t.boxDark}}"></path></g>
+</svg>
+</div>
+<div style="font-size: 14px; font-weight: 500; color: {{t.muted}}; text-align: center">{{hint}}</div>
+</div>
+
+<div style="flex: 1 1 380px; min-width: 0; max-width: 520px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: {{t.muted}}">{{cur.eyebrow}}</div>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 4vw, 46px); line-height: 1.08; letter-spacing: -0.03em">{{cur.title}}</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.55; color: {{t.muted}}">{{cur.tagline}}</p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px">
+<span style="padding: 6px 22px; border-radius: 999px; background: {{t.accent}}; color: {{t.accentInk}}; font-weight: 800; font-size: 32px; letter-spacing: -0.02em; line-height: 1.3">{{cur.price}}</span>
+<sc-if value="{{cur.hasNote}}" hint-placeholder-val="{{ false }}">
+<span style="font-size: 14px; font-weight: 500; color: {{t.muted}}">{{cur.note}}</span>
+</sc-if>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-top: 8px; border-top: 1px solid {{t.line}}">
+<span style="font-size: 17px; font-weight: 700">What's in the box</span>
+<span style="font-size: 14px; color: {{t.muted}}">{{cur.count}}</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<sc-for list="{{items}}" as="it" hint-placeholder-count="5">
+<button sc-camel-on-click="{{it.pick}}" aria-pressed="{{it.pressed}}" style="display: flex; align-items: center; gap: 14px; width: 100%; min-height: 52px; padding: 8px 14px; box-sizing: border-box; text-align: left; border: 0; border-radius: 16px; cursor: pointer; background: {{it.rowBg}}; color: {{t.ink}}">
+<span aria-hidden="true" style="flex: none; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; background: {{it.nBg}}; color: {{it.nInk}}">{{it.num}}</span>
+<span style="display: flex; flex-direction: column; min-width: 0">
+<span style="font-size: 16px; font-weight: {{it.wt}}">{{it.name}}</span>
+<sc-if value="{{it.hasSub}}" hint-placeholder-val="{{ false }}">
+<span style="font-size: 13px; color: {{t.muted}}">{{it.sub}}</span>
+</sc-if>
+</span>
+</button>
+</sc-for>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding-top: 8px">
+<a href="https://ig.me/m/aurevv.co" target="_blank" rel="noopener" style="display: flex; align-items: center; min-height: 52px; padding: 0 30px; border-radius: 999px; background: {{t.accent}}; color: {{t.accentInk}}; font-size: 16px; font-weight: 700; text-decoration: none">Order this hamper</a>
+<span style="font-size: 14px; color: {{t.muted}}">DM us the hamper name and who it's for.</span>
+</div>
+</div>
+
+</div>
+
+<div id="custom" style="width: 100%; max-width: 1180px; margin: 0 auto; box-sizing: border-box; padding: 36px 32px; border-radius: 32px; background: {{t.accent}}; color: {{t.accentInk}}; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 32px">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-weight: 800; font-size: clamp(24px, 3vw, 32px); letter-spacing: -0.02em">Want something different?</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; opacity: 0.92">Tell us who it's for and what they love, and we'll put together a custom hamper.</p>
+</div>
+<a href="https://ig.me/m/aurevv.co" target="_blank" rel="noopener" style="display: flex; align-items: center; min-height: 52px; padding: 0 30px; border-radius: 999px; background: {{t.accentInk}}; color: {{t.accent}}; font-size: 16px; font-weight: 700; text-decoration: none">Create a custom hamper</a>
+</div>
+
+<div id="order" style="width: 100%; max-width: 1180px; margin: 0 auto; box-sizing: border-box; padding: 44px 28px; border-radius: 32px; background: {{t.card}}; border: 1px solid {{t.line}}; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px">
+<h3 style="margin: 0; font-weight: 800; font-size: 28px; letter-spacing: -0.02em">Ready to send a little love?</h3>
+<p style="margin: 0; max-width: 480px; font-size: 16px; line-height: 1.55; color: {{t.muted}}">DM us on Instagram to place your order, and mention the hamper you'd like.</p>
+<a href="https://ig.me/m/aurevv.co" target="_blank" rel="noopener" style="display: flex; align-items: center; min-height: 52px; padding: 0 30px; margin-top: 6px; border-radius: 999px; background: {{t.accent}}; color: {{t.accentInk}}; font-size: 16px; font-weight: 700; text-decoration: none">Message @aurevv.co</a>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 28px; padding-top: 8px; font-size: 15px; font-weight: 600">
+<a href="https://www.instagram.com/aurevv.co/" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 8px; min-height: 44px; text-decoration: none">
+<svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><path d="M17.5 6.5h.01"></path></svg>
+<span>@aurevv.co</span>
+</a>
+<a href="mailto:aurevv.co@gmail.com" style="display: flex; align-items: center; gap: 8px; min-height: 44px; text-decoration: none">
+<svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18v12H3z M3 7l9 6.5L21 7"></path></svg>
+<span>aurevv.co@gmail.com</span>
+</a>
+</div>
+<span style="font-size: 13px; color: {{t.muted}}">© aurevv</span>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:1500}}">
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { hid: "everyday", sel: -1 };
+}
+renderVals() {
+const ICON = {
+cookie: "M12 3a9 9 0 1 0 9 9a4.5 4.5 0 0 1-4.5-4.5A4.5 4.5 0 0 1 12 3z M8.5 10h.01 M11.5 15h.01 M15.5 13.5h.01 M8 14.5h.01",
+card: "M4 5h16v14H4z M8 10h8 M8 14h5",
+quote: "M5 4h14v16H5z M8.5 9h2.5v3H8.5z M13 9h2.5v3H13z M8.5 12l-1 3 M13 12l-1 3",
+choc: "M5 3h14v18H5z M5 9h14 M5 15h14 M12 3v18",
+key: "M7.5 3a4.5 4.5 0 1 0 0 9a4.5 4.5 0 0 0 0-9z M7.5 6.5h.01 M11 11l9 9 M16 16l2-2 M18.5 18.5l2-2",
+teddy: "M12 8.5a5.5 5.5 0 1 0 0 11a5.5 5.5 0 0 0 0-11z M6 4.5a2.5 2.5 0 1 0 0 5 M18 4.5a2.5 2.5 0 1 1 0 5 M10 13h.01 M14 13h.01 M11 16h2",
+book: "M3 5h7a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H3z M21 5h-7a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h7z",
+crayon: "M6 21V9l2.5-5L11 9v12z M13 21v-8l2.5-4 2.5 4v8z",
+pencil: "M4 20l1-4L16 5l3 3L8 19z M14 7l3 3 M4 20l4-1",
+scrunchie: "M12 4a8 8 0 1 0 0 16a8 8 0 0 0 0-16z M12 9a3 3 0 1 0 0 6a3 3 0 0 0 0-6z",
+star: "M12 3l2.6 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.3 9.4l6.1-.8z",
+car: "M2.5 15v-3l2.5-4h9l4 4h3.5v3z M6.5 14.5a2 2 0 1 0 0 4a2 2 0 0 0 0-4z M16.5 14.5a2 2 0 1 0 0 4a2 2 0 0 0 0-4z",
+blocks: "M3 13h8v8H3z M13 13h8v8h-8z M8 4h8v9H8z",
+puzzle: "M5 5h4.5a2 2 0 1 1 4 0H18v4.5a2 2 0 1 0 0 4V18h-4.5a2 2 0 1 0-4 0H5v-4.5a2 2 0 1 1 0-4z",
+mug: "M4 7h11v9a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z M15 9h2a2.5 2.5 0 0 1 0 5h-2 M7 3v2 M11 3v2",
+frame: "M3 4h18v16H3z M7 8h10v8H7z",
+photos: "M3 6h13v11H3z M8 20h13V10 M5.5 14l3-3 2.5 2.5 2-2 2.5 2.5",
+candle: "M12 2.5c2 2 2 3.5 0 5c-2-1.5-2-3 0-5z M8 11h8v10H8z M12 7.5V11 M6 21h12",
+flower: "M12 13v8 M12 13c-3.5-1-4.5-4.5-3.5-8c3.5 1 4.5 4.5 3.5 8z M12 13c3.5-1 4.5-4.5 3.5-8c-3.5 1-4.5 4.5-3.5 8z M12 13c-4 0-6-2.5-6-5.5c3 0 6 2 6 5.5z M9 21h6",
+collector: "M6 3h12v18H6z M9 7h6v6H9z M9 16.5h6",
+pendant: "M6 2.5l6 6.5 6-6.5 M12 21s-5.5-3.5-5.5-7.5a3 3 0 0 1 5.5-1.7a3 3 0 0 1 5.5 1.7c0 4-5.5 7.5-5.5 7.5z",
+album: "M5 3h14v18H5z M5 3v18 M10 9h6v6h-6z",
+letter: "M3 6h18v12H3z M3 7l9 6.5L21 7"
+};
+const KIND = {
+heart: "M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z",
+star: "M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.3 5.8 21.1l1.6-7L2 9.3l7.1-.7z",
+dot: "M12 4a8 8 0 1 0 0 16a8 8 0 0 0 0-16z"
+};
+const light = (c) => ({
+bg: "linear-gradient(180deg, " + c.bg1 + " 0%, " + c.bg2 + " 100%)",
+ink: c.ink, muted: c.muted, line: c.ink + "1F", card: "#FFFFFF",
+box: c.box, boxDark: c.boxDark, inner: c.inner, ribbon: "#FFFFFF",
+tokenBg: "#FFFFFF", tokenInk: c.accent,
+selBg: c.accent, selInk: "#FFFFFF", ring: c.accent + "66",
+accent: c.accent, accentInk: "#FFFFFF", rowSel: c.accent + "1A",
+tabBorder: c.ink + "40", tabOnBg: c.accent, tabOnInk: "#FFFFFF",
+bubbleBg: "#FFFFFF", bubbleInk: c.ink, pillBg: "#FFFFFF", pillInk: c.ink,
+deco: c.deco, kind: c.kind
+});
+const love = (c) => ({
+bg: "linear-gradient(160deg, #4A0A24 0%, #7E1840 55%, #A3234F 100%)",
+ink: "#FFF1F5", muted: "#F7CDD9", line: "rgba(255,255,255,0.2)", card: "rgba(255,255,255,0.12)",
+box: c.box, boxDark: c.boxDark, inner: c.inner, ribbon: c.ribbon,
+tokenBg: "#FFF1F5", tokenInk: "#A21D48",
+selBg: "#FFE3EA", selInk: "#6B0F2C", ring: "rgba(255,227,234,0.75)",
+accent: "#FFE3EA", accentInk: "#6B0F2C", rowSel: "rgba(255,255,255,0.16)",
+tabBorder: "rgba(255,241,245,0.45)", tabOnBg: "#FFE3EA", tabOnInk: "#6B0F2C",
+bubbleBg: "#FFF1F5", bubbleInk: "#4A0A24", pillBg: "rgba(255,255,255,0.14)", pillInk: "#FFF1F5",
+deco: "rgba(255,143,176,0.28)", kind: "heart"
+});
+const THEMES = {
+everyday: light({ bg1: "#E4F1FC", bg2: "#F8FBFF", ink: "#16314B", muted: "#4A6682", box: "#9FCBEF", boxDark: "#7DB5E3", inner: "#5F9ED3", accent: "#1F6FB2", deco: "#CBE3F7", kind: "dot" }),
+princess: light({ bg1: "#FFE8F1", bg2: "#FFF8FB", ink: "#4B1D36", muted: "#7A4560", box: "#F8C1D8", boxDark: "#F2A2C3", inner: "#E985B0", accent: "#B8386B", deco: "#FBCFE1", kind: "heart" }),
+prince: light({ bg1: "#E3EAFF", bg2: "#F6F8FF", ink: "#0F1E4D", muted: "#43507C", box: "#1E3A8A", boxDark: "#162C6B", inner: "#0F1F55", accent: "#1E3A8A", deco: "#C6D3FF", kind: "star" }),
+parents: light({ bg1: "#FAEFD7", bg2: "#FFFBF2", ink: "#3A2B0F", muted: "#6B5628", box: "#E7CF98", boxDark: "#D4B672", inner: "#B9974C", accent: "#8A6414", deco: "#F0DDB0", kind: "dot" }),
+boyfriend: love({ box: "#D92D55", boxDark: "#B11F43", inner: "#6E0E2B", ribbon: "#FFD9E2" }),
+girlfriend: love({ box: "#F7A8BF", boxDark: "#EF86A5", inner: "#C4466D", ribbon: "#FFFFFF" })
+};
+const HAMPERS = [
+{ id: "everyday", tab: "Everyday", eyebrow: "Hamper A", title: "The Everyday Hamper", tagline: "A little something for anyone, any day.", price: "₹599", note: "", items: [
+{ name: "Cookies or biscuits", icon: "cookie" },
+{ name: "Personalised message card", icon: "card" },
+{ name: "Quote card", icon: "quote" },
+{ name: "Chocolate treat", icon: "choc" },
+{ name: "Decorative keychain", icon: "key" } ] },
+{ id: "princess", tab: "Lil Princess", eyebrow: "Hamper B", title: "For Your Lil Princess", tagline: "A box of sweet surprises for your little princess.", price: "₹699", note: "", items: [
+{ name: "Mini plush teddy", icon: "teddy" },
+{ name: "Cute colouring book", icon: "book" },
+{ name: "Crayon or colour pencil set", icon: "crayon" },
+{ name: "Cute stationery set", icon: "pencil" },
+{ name: "Hair clips or scrunchies", icon: "scrunchie" },
+{ name: "Stickers collection", icon: "star" },
+{ name: "Chocolates!", icon: "choc" },
+{ name: "Personalised greeting card", icon: "card" } ] },
+{ id: "prince", tab: "Lil Prince", eyebrow: "Hamper B", title: "For Your Lil Prince", tagline: "A box of fun surprises for your little prince.", price: "₹699", note: "", items: [
+{ name: "Mini toy car", icon: "car" },
+{ name: "Mini building blocks set", icon: "blocks" },
+{ name: "Kids' colouring/activity book", icon: "book" },
+{ name: "Crayon or colour pencil set", icon: "crayon" },
+{ name: "Mini puzzle", icon: "puzzle" },
+{ name: "Fun stickers", icon: "star" },
+{ name: "Chocolates!", icon: "choc" },
+{ name: "Personalised greeting card", icon: "card" } ] },
+{ id: "parents", tab: "Parents' Anniversary", eyebrow: "Hamper C", title: "For Your Parents' Anniversary", tagline: "A keepsake box to celebrate their years together.", price: "₹1599", note: "Price may vary with add-ons", items: [
+{ name: "Matching couple mugs", icon: "mug" },
+{ name: "Personalised photo frame", icon: "frame" },
+{ name: "Personalised anniversary message", icon: "card" },
+{ name: "Small pictures of unforgettable memories", sub: "3 pictures", icon: "photos" },
+{ name: "Scented candle", icon: "candle" },
+{ name: "Chocolate assortment", icon: "choc" },
+{ name: "Mini dried flower bouquet", icon: "flower" } ] },
+{ id: "boyfriend", tab: "Boyfriend", eyebrow: "Hamper D", title: "For Your Boyfriend", tagline: "Little things, big feelings, with a letter from you.", price: "₹1299", note: "Price may vary with add-ons", items: [
+{ name: "Three Hot Wheels cars", sub: "Two regular + one Mainline or Premium", icon: "car" },
+{ name: "Chocolates!", icon: "choc" },
+{ name: "Keychain", sub: "Of his girlfriend's choice", icon: "key" },
+{ name: "A personalised letter from his girl", icon: "letter" },
+{ name: "Collector's card", sub: "From us", icon: "collector" } ] },
+{ id: "girlfriend", tab: "Girlfriend", eyebrow: "Hamper E", title: "For Your Girlfriend", tagline: "A box of keepsakes and a love letter, just for her.", price: "₹1299", note: "Price may vary with add-ons", items: [
+{ name: "Minimal heart pendant", icon: "pendant" },
+{ name: "Mini memory album", icon: "album" },
+{ name: "Mini plush teddy", icon: "teddy" },
+{ name: "Chocolates!", icon: "choc" },
+{ name: "Personalised love letter", icon: "letter" } ] }
+];
+const LAYOUT = {
+5: { w: 19, pos: [[24, 26], [50, 23], [76, 26], [37, 50], [63, 48]] },
+7: { w: 18, pos: [[17, 26], [39, 23], [61, 23], [83, 26], [28, 51], [50, 49], [72, 51]] },
+8: { w: 18, pos: [[17, 26], [39, 23], [61, 23], [83, 26], [17, 51], [39, 49], [61, 49], [83, 51]] }
+};
+const DECO = [[6, 5, 38], [88, 4, 28], [10, 30, 22], [91, 28, 44], [4, 58, 30], [89, 55, 26], [9, 82, 40], [86, 80, 32], [48, 2, 20]];
+const ROTS = [-6, 4, -3, 6, -5, 3, -4, 5];
+
+const smooth = !(typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+const go = (id) => (e) => {
+if (e && e.preventDefault) e.preventDefault();
+const el = document.getElementById(id);
+if (el) el.scrollIntoView({ behavior: smooth ? "smooth" : "auto", block: "start" });
+};
+const goTop = (e) => {
+if (e && e.preventDefault) e.preventDefault();
+window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
+};
+const cur = HAMPERS.find((h) => h.id === this.state.hid) || HAMPERS[0];
+const t = THEMES[cur.id];
+const sel = this.state.sel;
+const slots = LAYOUT[cur.items.length];
+
+const items = cur.items.map((it, i) => {
+const on = sel === i;
+const p = slots.pos[i];
+return {
+num: i + 1,
+name: it.name,
+sub: it.sub || "",
+hasSub: !!it.sub,
+icon: ICON[it.icon],
+on: on,
+pressed: on ? "true" : "false",
+pick: () => this.setState((st) => ({ sel: st.sel === i ? -1 : i })),
+x: p[0],
+y: p[1],
+w: slots.w,
+tf: on ? "translate(-50%, -50%) translateY(-26%) scale(1.22) rotate(0deg)" : "translate(-50%, -50%) rotate(" + ROTS[i % 8] + "deg)",
+z: on ? 6 : 2,
+bg: on ? t.selBg : t.tokenBg,
+fg: on ? t.selInk : t.tokenInk,
+sh: on ? "0 0 0 5px " + t.ring + ", 0 22px 36px rgba(0,0,0,0.28)" : "0 10px 20px rgba(0,0,0,0.16)",
+bBg: on ? t.tokenBg : t.accent,
+bInk: on ? t.tokenInk : t.accentInk,
+just: p[0] < 30 ? "flex-start" : (p[0] > 70 ? "flex-end" : "center"),
+rowBg: on ? t.rowSel : "transparent",
+nBg: on ? t.accent : t.line,
+nInk: on ? t.accentInk : t.ink,
+wt: on ? "700" : "500"
+};
+});
+
+const tabs = HAMPERS.map((h) => {
+const on = h.id === cur.id;
+return {
+label: h.tab,
+pick: () => this.setState({ hid: h.id, sel: -1 }),
+pressed: on ? "true" : "false",
+bg: on ? t.tabOnBg : "transparent",
+ink: on ? t.tabOnInk : t.ink,
+border: on ? t.tabOnBg : t.tabBorder,
+wt: on ? "600" : "500"
+};
+});
+
+const deco = DECO.map((d, i) => ({
+x: d[0], y: d[1], s: d[2], d: (i * 0.7) + "s", path: KIND[t.kind]
+}));
+
+return {
+t: t,
+cur: {
+eyebrow: cur.eyebrow,
+title: cur.title,
+tagline: cur.tagline,
+price: cur.price,
+note: cur.note,
+hasNote: !!cur.note,
+count: cur.items.length + " items"
+},
+tabs: tabs,
+items: items,
+deco: deco,
+goTop: goTop,
+goHampers: go("hampers"),
+goCustom: go("custom"),
+goContact: go("order"),
+labelPath: t.kind === "dot" ? KIND.heart : KIND[t.kind],
+hint: sel >= 0 ? "Tap it again to tuck it back in" : "Tap any item to see it pop out of the box"
+};
+}
+}
+</script>
+
+
+</body></html>
